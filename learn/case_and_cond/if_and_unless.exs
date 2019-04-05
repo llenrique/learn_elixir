@@ -19,3 +19,19 @@ end
 
 
 if false, do: :true, else: :false
+
+
+if true do
+  a = 1 + 2
+  a + 10
+end
+
+
+if true, do: (
+  a = 1 + 2
+  a + 10
+)
+
+is_number(if true do
+  1 + 2
+end)
