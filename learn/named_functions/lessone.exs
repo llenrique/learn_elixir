@@ -5,7 +5,7 @@ defmodule PipeTest do
 
   def sst(the_list) do
     the_list
-    |> tl
+    |> hd
     |> sum
     |> square
   end
